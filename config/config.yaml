@@ -1,0 +1,5 @@
+postgres:
+  pg_user: "user"
+  pg_db: "db"
+  pg_password: "2231"
+  pg_url: "postgres://user:2231@localhost:5432/db?sslmode=disable"
