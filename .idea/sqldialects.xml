@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/services/gatway_accuntingForFinances/migrations/20251123173328_users.down.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/gatway_accuntingForFinances/migrations/20251123173328_users.up.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/gatway_accuntingForFinances/migrations/20251123173757_balance.down.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/gatway_accuntingForFinances/migrations/20251123173757_balance.up.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/gatway_accuntingForFinances/migrations/20251123174007_products.down.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/gatway_accuntingForFinances/migrations/20251123174007_products.up.sql" dialect="GenericSQL" />
+  </component>
+</project>

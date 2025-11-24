@@ -1,7 +1,7 @@
-package Postgers
+package postgres
 
 import (
-	"accounting/config"
+	"accounting/services/gatway_accuntingForFinances/config"
 	"context"
 	"errors"
 	"github.com/golang-migrate/migrate"
@@ -24,7 +24,7 @@ func InitDB(ctx context.Context, cfg config.Postgres, logger *zap.Logger) (*pgxp
 		return nil, err
 	}
 
-	m, err := migrate.New("file://../../migrations", cfg.URL)
+	m, err := migrate.New("file://../migrations", cfg.URL)
 	if err != nil {
 		pool.Close()
 		logger.Error("не удалось создать миграции", zap.Error(err))
